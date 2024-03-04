@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clock-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.clock{
+    font-size: 4rem;
+    font-weight: bold;
+    font-family: monospace;
+    text-shadow: 3px 3px 5px grey;
+}
